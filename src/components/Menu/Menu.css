@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    background-color: #ffee00;
+    background-color: gold;
     color: #1b1b1b;
     position: relative;
   }
@@ -97,7 +97,7 @@
       top: 100%;
       left: 0;
       width: 100%;
-      background-color: whitesmoke;
+      background-color:#ffee00;
       flex-direction: column;
       transform: translateY(-100%);
       opacity: 0;
