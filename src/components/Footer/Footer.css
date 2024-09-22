@@ -1,0 +1,34 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.footer-bottom {
+  text-align: center;
+  padding: 1rem;
+  background-color: #151515;
+  color: #aaa;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .footer-container > div {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}

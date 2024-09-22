@@ -1,0 +1,152 @@
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  .video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+  }
+  
+  .text-overlay {
+    color: #fff;
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  
+  .text-overlay h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+  }
+  
+  .text-overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    line-height: 1.6;
+    animation: fadeInUp 1.5s ease-out;
+  }
+  
+  
+  .animated-text {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s ease-in-out infinite;
+    position: relative;
+  }
+
+  .sub-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #bbb;
+    max-width: 600px;
+    margin: 1rem auto;
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1.5s ;
+  }
+
+  @keyframes glow {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(255, 106, 0, 0.7), 0 0 20px rgba(255, 106, 0, 0.5),
+                   0 0 30px rgba(255, 106, 0, 0.3), 0 0 40px rgba(238, 9, 121, 0.2);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 106, 0, 0.8), 0 0 30px rgba(255, 106, 0, 0.6),
+                   0 0 40px rgba(255, 106, 0, 0.4), 0 0 50px rgba(238, 9, 121, 0.3);
+    }
+  }
+  
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .text-effect-section::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    animation: float 10s linear infinite;
+    z-index: 0;
+    opacity: 0.6;
+  }
+  
+
+  @keyframes float {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-20px, -20px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .text-overlay h1 {
+      font-size: 2.2rem;
+    }
+  
+    .text-overlay p {
+      font-size: 1rem;
+    }
+  
+  }
+  

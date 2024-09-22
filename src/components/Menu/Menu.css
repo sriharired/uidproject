@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #ffee00;
+    color: #1b1b1b;
+    position: relative;
+  }
+  
+  .navbar-logo h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .navbar-logo h2:hover {
+    color: #3f3e3a;
+  }
+  
+  
+  .navbar-logo h2:hover::after {
+    width: 100%;
+  }
+
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-icon.open .menu-line {
+    background-color:dimgray; 
+  }
+  
+  .menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: #1b1b1b;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-icon.open .menu-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .menu-icon.open .menu-line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .menu-line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #1b1b1b;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: flex;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: whitesmoke;
+      flex-direction: column;
+      transform: translateY(-100%);
+      opacity: 0;
+      z-index: -1;
+      transition: all 0.3s ease;
+    }
+  
+    .nav-links.open {
+      transform: translateY(0);
+      opacity: 1;
+      z-index: 1;
+    }
+  
+    .nav-links li {
+      text-align: center;
+      margin: 0.1rem;
+    }
+  }
+  
