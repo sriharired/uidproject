@@ -127,8 +127,15 @@
     }
   }
   
+  @media (min-width: 769px) {
+    .play-button {
+      display: none;
+    }
+  }
+  
 
   @media (max-width: 768px) {
+    
     .text-overlay h1 {
       font-size: 1.3rem;
     }
