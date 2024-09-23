@@ -67,8 +67,8 @@ const Wrapper = styled.div`
 `;
 
 const Heading = styled.h1`
-  font-size: 3em;
-  color: #333333; /* Dark gray for contrast */
+  font-size: 2em;
+  color: #333333;
   margin-bottom: 30px;
   font-weight: 700;
   text-transform: uppercase;
