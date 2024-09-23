@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    background-color: gold;
+    background-color: white;
     color: #1b1b1b;
     position: relative;
   }
@@ -72,6 +72,7 @@
   }
   
   .nav-links {
+    text-align: center;
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -79,6 +80,7 @@
   }
   
   .nav-links a {
+    text-align: center;
     text-decoration: none;
     color: #1b1b1b;
     padding: 0.5rem 1rem;
@@ -97,7 +99,7 @@
       top: 100%;
       left: 0;
       width: 100%;
-      background-color:#ffee00;
+      background-color:whitesmoke;
       flex-direction: column;
       transform: translateY(-100%);
       opacity: 0;

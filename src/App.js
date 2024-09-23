@@ -1,13 +1,15 @@
 import React from 'react';
 import Menu from './components/Menu/Menu';
 import Footer from './components/Footer/Footer';
-import Section1 from './components/Section1/Section1';
+import Introcuction from './components/Section1/Section1';
+import TeamMembers from './components/Section2/Section2';
 
 function App() {
   return (
     <div className="App">
       <Menu />
-      <Section1/>
+      <Introcuction />
+      <TeamMembers/>
       <Footer />
     </div>
   );

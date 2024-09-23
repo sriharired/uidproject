@@ -1,13 +1,12 @@
 import React, {useEffect,useRef} from 'react';
 import './Section1.css';
 
-const Section1 = () => {
+const Introcuction = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
     const videoElement = videoRef.current;
     if (videoElement) {
-      // Check if the video is paused and attempt to play it
       if (videoElement.paused) {
         videoElement.play().catch((error) => {
           console.error('Auto-play was prevented. Click the video to play manually.');
@@ -32,4 +31,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Introcuction;

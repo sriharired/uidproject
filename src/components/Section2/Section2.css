@@ -1,0 +1,33 @@
+
+.team-container{
+    text-align: center;
+    background-color:darkolivegreen;
+    padding: 2rem;
+}
+
+.team-heading{
+    font-size: 2rem;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.teammembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .teammembers{
+        min-height: 50vh;
+    }
+
+    .team-heading{
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+  }
+  
