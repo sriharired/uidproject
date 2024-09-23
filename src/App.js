@@ -6,18 +6,20 @@ import TeamMembers from './components/Section2/Section2';
 import ProejctDescription from './components/Section3/Section3';
 import Problemstatement from './components/Section4/Section4';
 import Technologies from './components/Section5/Section5';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Menu />
-        <Introcuction />
-        <TeamMembers/>
-        <ProejctDescription />
-        <Problemstatement />
-        <Technologies />
+        <Switch>
+          <Introcuction />
+          <TeamMembers/>
+          <ProejctDescription />
+          <Problemstatement />
+          <Technologies />
+        </Switch>
         <Footer />
       </div>
     </Router>
