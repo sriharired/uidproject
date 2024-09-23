@@ -6,20 +6,21 @@ import TeamMembers from './components/Section2/Section2';
 import ProejctDescription from './components/Section3/Section3';
 import Problemstatement from './components/Section4/Section4';
 import Technologies from './components/Section5/Section5';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Menu />
-        <Switch>
-          <Introcuction />
-          <TeamMembers/>
-          <ProejctDescription />
-          <Problemstatement />
-          <Technologies />
-        </Switch>
+        <Routes>
+          <Route path="/introduction" element={<Introcuction />} />
+          <Route path="/teammembers" element={<TeamMembers />} />
+          <Route path="/projectdescription" element={<ProejctDescription />} />
+          <Route path="/problemstatement" element={<Problemstatement />} />
+          <Route path="/technologies" element={<Technologies />} />
+
+        </Routes>
         <Footer />
       </div>
     </Router>
