@@ -34,7 +34,7 @@ const ImageWrapper = styled.div`
   align-items: center;
   margin: 20px;
   img {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
