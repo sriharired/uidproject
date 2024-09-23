@@ -57,7 +57,7 @@ const Heading = styled.h1`
 `;
 
 const Introduction = styled.p`
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   line-height: 1.2;
   color: #333;
   text-align: justify;
