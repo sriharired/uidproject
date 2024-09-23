@@ -7,7 +7,7 @@ const members = [
   {
     name: 'Srinivas Amla',
     title: 'Full Stack Developer',
-    description: 'Expert in full-stack development using java.',
+    description: 'Expert in full-stack development using java & React-JS.',
     image: 'member1.jpg',
     bgColor: '#1b1b1b'
   },
