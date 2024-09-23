@@ -32,7 +32,7 @@ const ImageWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
   img {
     max-width: 50%;
     height: auto;
