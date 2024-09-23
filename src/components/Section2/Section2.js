@@ -14,7 +14,7 @@ const members = [
   {
     name: 'Putha Sri Hari Reddy',
     title: 'Front End Developer using React',
-    description: 'Specializes in React, Figma and web design.',
+    description: 'Specializes in React, Figma , Git and web design.',
     image: 'member2.jpg',
     bgColor: '#1b1b1b'
   },
