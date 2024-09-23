@@ -8,14 +8,14 @@ const members = [
     name: 'Srinivas Amla',
     title: 'Full Stack Developer',
     description: 'Expert in full-stack development using java.',
-    image: 'https://via.placeholder.com/300',
+    image: 'member1.jpg',
     bgColor: '#1b1b1b'
   },
   {
     name: 'Putha Sri Hari Reddy',
     title: 'Front End Developer using React',
     description: 'Specializes in React, Figma and web design.',
-    image: 'https://via.placeholder.com/300',
+    image: 'member2.jpg',
     bgColor: '#1b1b1b'
   },
   {
