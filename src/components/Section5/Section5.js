@@ -67,20 +67,21 @@ const Wrapper = styled.div`
 `;
 
 const Heading = styled.h1`
+  margin: 5%;
   font-size: 2em;
   color: #333333;
   margin-bottom: 30px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
 const Section = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* Uniform spacing between cards */
+  gap: 20px;
 `;
 
 const Card = styled.div`
@@ -95,7 +96,7 @@ const Card = styled.div`
 
   &:hover {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-    transform: translateY(-5px); /* Subtle lift on hover */
+    transform: translateY(-5px);
   }
 `;
 
@@ -107,15 +108,15 @@ const CardImageWrapper = styled.div`
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 20px;
-  background-color: #f7f7f7; /* Light background to contrast image */
+  background-color: #f7f7f7; 
 `;
 
 const CardImage = styled.img`
-  width: 60%; /* Control the size of the image */
+  width: 60%;
   transition: transform 0.3s ease;
 
   ${Card}:hover & {
-    transform: scale(1.1); /* Slight zoom on hover */
+    transform: scale(1.1);
   }
 `;
 
@@ -125,12 +126,12 @@ const CardContent = styled.div`
 
 const CardTitle = styled.h3`
   font-size: 1.25em;
-  color: #111111; /* Darker color for visibility */
+  color: #111111;
   margin-bottom: 10px;
 `;
 
 const CardDescription = styled.p`
   font-size: 0.9em;
-  color: #555555; /* Medium gray for contrast */
+  color: #555555;
   line-height: 1.5;
 `;
