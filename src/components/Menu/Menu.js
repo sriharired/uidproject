@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Menu.css';
 import '../Section1/Section1';
 import '../Section2/Section2';
@@ -24,11 +25,11 @@ const Menu = () => {
         <div className="menu-line"></div>
       </div>
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <li><a href="/#introduction">Introduction</a></li>
-        <li><a href='/#teammembers'>Team Members</a></li>
-        <li><a href='/#projectdescription'>Project Description</a></li>
-        <li><a href='/#problemstatement'>Problem Statement</a></li>
-        <li><a href='/#technologies'>Technologies Used</a></li>
+        <li><Link to="/#introduction">Introduction</Link></li>
+        <li><Link href='/#teammembers'>Team Members</Link></li>
+        <li><Link href='/#projectdescription'>Project Description</Link></li>
+        <li><Link href='/#problemstatement'>Problem Statement</Link></li>
+        <li><Link href='/#technologies'>Technologies Used</Link></li>
       </ul>
     </nav>
   );

@@ -6,17 +6,21 @@ import TeamMembers from './components/Section2/Section2';
 import ProejctDescription from './components/Section3/Section3';
 import Problemstatement from './components/Section4/Section4';
 import Technologies from './components/Section5/Section5';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 function App() {
   return (
-    <div className="App">
-      <Menu />
-      <Introcuction />
-      <TeamMembers/>
-      <ProejctDescription />
-      <Problemstatement />
-      <Technologies />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Menu />
+        <Introcuction />
+        <TeamMembers/>
+        <ProejctDescription />
+        <Problemstatement />
+        <Technologies />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
