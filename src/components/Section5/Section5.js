@@ -36,7 +36,7 @@ const cardsData = [
 
 const Technologies = () => {
   return (
-    <Wrapper>
+    <Wrapper id='technologies'>
       <Heading>Technologies</Heading>
       <Section>
         {cardsData.map((card) => (

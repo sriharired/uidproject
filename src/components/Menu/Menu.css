@@ -18,7 +18,10 @@
     padding: 0.5rem 1rem;
     background-color: white;
     color: #1b1b1b;
-    position: relative;
+    position: sticky; /* Changed from relative to sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1000; /* Ensure the navbar stays on top */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for visual separation */
   }
   
   .navbar-logo h2 {

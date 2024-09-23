@@ -60,7 +60,7 @@ const Details = styled.p`
 
 const Problemstatement = () => {
   return (
-    <Section>
+    <Section id='problemstatement'>
       <Heading>Problem Statement</Heading>
       <Details>
             Many individuals lack a complete knowledge of Indian mythology's rich background due to broken information and current misinterpretations. 

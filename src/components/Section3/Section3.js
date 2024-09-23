@@ -19,6 +19,7 @@ const Content = styled.div`
   text-align: center;
   margin: 10px;
 
+
   @media (min-width: 1024px ) {
     text-align: left;
     margin: 0 20px 0 0;
@@ -33,7 +34,7 @@ const ImageWrapper = styled.div`
   align-items: center;
   margin: 20px;
   img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -44,7 +45,7 @@ const ImageWrapper = styled.div`
 `;
 
 const Heading = styled.h1`
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   color: #1b1b1b;
   margin-bottom: 20px;
   text-decoration: underline;
@@ -55,15 +56,18 @@ const Heading = styled.h1`
 `;
 
 const Introduction = styled.p`
-  font-size: 1.0rem;
-  line-height: 1.6;
+  font-size: 0.6rem;
+  line-height: 1.2;
   color: #333;
   text-align: justify;
+    @media (min-width: 1024px){
+      font-size: 1.0rem;
+  }
 `;
 
 const ProejctDescription = () => {
   return (
-    <Section>
+    <Section id='projectdescription'>
       <Content>
         <Heading>Project Description</Heading>
         <Introduction>

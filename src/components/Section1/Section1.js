@@ -17,7 +17,7 @@ const Introcuction = () => {
 
 
   return (
-    <div className="video-section">
+    <div className="video-section" id='introduction'>
       <video ref={videoRef} className="video-bg" autoPlay loop muted playsInline >
         <source src={`${process.env.PUBLIC_URL}/Section-0.mp4`} type="video/mp4" />
         Your browser does not support the video tag.

@@ -36,7 +36,7 @@ const members = [
 
 const TeamMembers = () => {
   return (
-    <div className='team-container'>
+    <div className='team-container' id='teammembers'>
         <div className='team-heading'>
           <h5>Team Members</h5> 
         </div>
