@@ -52,7 +52,7 @@ const Heading = styled.h1`
   text-align: center;
   @media (min-width: 1024px){
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
   }
 `;
 
@@ -62,7 +62,7 @@ const Introduction = styled.p`
   color: #333;
   text-align: justify;
     @media (min-width: 1024px){
-      font-size: 1.0rem;
+      font-size: 1.3rem;
   }
 `;
 
