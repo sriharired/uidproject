@@ -19,19 +19,13 @@ const members = [
     bgColor: '#1b1b1b'
   },
   {
-    name: 'Srinivas Amla',
-    title: 'Full Stack Developer',
-    description: 'Expert in full-stack development using java.',
-    image: 'https://via.placeholder.com/300',
+    name: 'Keerthi',
+    title: 'Front End Developer and designer',
+    description: 'Specializes in Html,Css,Js.',
+    image: 'member3.jpg',
     bgColor: '#1b1b1b'
   },
-  {
-    name: 'Srinivas Amla',
-    title: 'Full Stack Developer',
-    description: 'Expert in full-stack development using java.',
-    image: 'https://via.placeholder.com/300',
-    bgColor: '#1b1b1b'
-  },
+
 ];
 
 const TeamMembers = () => {
