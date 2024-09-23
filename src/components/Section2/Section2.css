@@ -20,7 +20,7 @@
     padding: 20px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (max-width: 1024px) {
     .teammembers{
         min-height: 50vh;
     }
@@ -30,4 +30,10 @@
         font-weight: bolder;
     }
   }
+
+  @media (min-width: 1025px) {
+    .team-heading{
+        font-size: 3rem;
+    }
+}
   
