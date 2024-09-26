@@ -28,7 +28,7 @@ const members = [
   {
     name: 'Janshi',
     title: 'Web designer',
-    description: 'Specializes in Figma.',
+    description: 'Expertizes in Figma, Bootcamp, Canva.',
     image: 'member4.jpg',
     bgColor: '#1b1b1b'
   },
