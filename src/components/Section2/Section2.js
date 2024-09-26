@@ -25,6 +25,13 @@ const members = [
     image: 'member3.jpg',
     bgColor: '#1b1b1b'
   },
+  {
+    name: 'Janshi',
+    title: 'Web designer',
+    description: 'Specializes in Figma.',
+    image: 'member4.jpg',
+    bgColor: '#1b1b1b'
+  },
 
 ];
 
