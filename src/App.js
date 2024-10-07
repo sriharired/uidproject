@@ -6,6 +6,7 @@ import TeamMembers from './components/Section2/Section2';
 import ProjectDescription from './components/Section3/Section3';
 import ProblemStatement from './components/Section4/Section4';
 import Technologies from './components/Section5/Section5';
+import Persona from './components/Section6/Section6';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
                 <section id="technologies">
                   <Technologies />
                 </section>
+                <section id="persona">
+                  <Persona />
+                </section>
               </div>
             }
           />
@@ -41,6 +45,7 @@ function App() {
           <Route path="/projectdescription" element={<ProjectDescription />} />
           <Route path="/problemstatement" element={<ProblemStatement />} />
           <Route path="/technologies" element={<Technologies />} />
+          <Route path='/persona' element={<Persona/>} />
         </Routes>
         <Footer />
       </div>
