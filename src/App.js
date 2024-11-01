@@ -7,6 +7,8 @@ import ProjectDescription from './components/Section3/Section3';
 import ProblemStatement from './components/Section4/Section4';
 import Technologies from './components/Section5/Section5';
 import Persona from './components/Section6/Section6';
+import Storyboards from './components/section7/section7';
+import PaperPrototype from './components/section8/section8';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -36,6 +38,12 @@ function App() {
                 </section>
                 <section id="persona">
                   <Persona />
+                </section>
+                <section id="Storyboards">
+                  <Storyboards/>
+                </section>
+                <section id="PaperPrototype">
+                  <PaperPrototype/>
                 </section>
               </div>
             }
