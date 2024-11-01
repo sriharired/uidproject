@@ -132,12 +132,6 @@ const Storyboards = () => {
           <Title>Storyboard 1</Title>
           <Content>This is the content for storyboard 1.</Content>
           <ButtonContainer>
-            <Button href="#view1">
-              <Icon>
-                <FaEye /> {/* Eye icon for view */}
-              </Icon>
-              View
-            </Button>
             <Button href="#download1">
               <Icon>
                 <FaDownload /> {/* Download icon */}
@@ -150,12 +144,6 @@ const Storyboards = () => {
           <Title>Storyboard 2</Title>
           <Content>This is the content for storyboard 2.</Content>
           <ButtonContainer>
-            <Button href="#view2">
-              <Icon>
-                <FaEye />
-              </Icon>
-              View
-            </Button>
             <Button href="#download2">
               <Icon>
                 <FaDownload />
@@ -168,12 +156,6 @@ const Storyboards = () => {
           <Title>Storyboard 3</Title>
           <Content>This is the content for storyboard 3.</Content>
           <ButtonContainer>
-            <Button href="#view3">
-              <Icon>
-                <FaEye />
-              </Icon>
-              View
-            </Button>
             <Button href="#download3">
               <Icon>
                 <FaDownload />
@@ -186,12 +168,6 @@ const Storyboards = () => {
           <Title>Storyboard 4</Title>
           <Content>This is the content for storyboard 4.</Content>
           <ButtonContainer>
-            <Button href="#view4">
-              <Icon>
-                <FaEye />
-              </Icon>
-              View
-            </Button>
             <Button href="#download4">
               <Icon>
                 <FaDownload />
