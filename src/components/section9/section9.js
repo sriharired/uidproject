@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import './section9.css';
 
 const StyledIframe = styled.iframe`
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -25,10 +26,13 @@ const ComputerPrototype = () => {
         title="Figma Design"
         allowFullScreen
       />
-      <Heading>Steps to run Prototype:</Heading>
-      <li>
-        <ul>Just click on the elements to navigate from one frame to another frame.This is embeded figma Prototype so no need of link to run this.</ul>
-      </li>
+      <Heading className="steps-head">Steps to run Prototype:</Heading>
+        <div className="steps">
+            <ul>
+               <li>Just click on the elements to navigate from one frame to another frame.</li>
+               <li>This is an embedded Figma prototype, so no need for a link to run this.</li>
+            </ul>
+        </div>
     </div>
   );
 };

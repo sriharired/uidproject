@@ -1,0 +1,13 @@
+.steps{
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    color:darkcyan;
+}
+
+.steps-head {
+    padding: 1%;
+    text-align: left;
+    font-size: 1.5em;
+    color:coral;
+}

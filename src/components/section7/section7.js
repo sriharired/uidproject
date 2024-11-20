@@ -28,10 +28,12 @@ const slideUp = keyframes`
 `;
 
 const Section = styled.section`
-  display: flex;
+display: flex;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   justify-content: center;
   align-items: center;
-  padding: 50px;
   background-color: #f7f7f7; // Background color for the section
 `;
 
@@ -45,7 +47,7 @@ const StoryboardContainer = styled.div`
 const Storyboard = styled.div`
   background-color: #e1f5fe; // Light blue background for storyboard
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   animation: ${fadeIn} 0.5s ease forwards;
   opacity: 0; // Initial opacity for fade-in effect
