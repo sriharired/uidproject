@@ -132,7 +132,7 @@ const Storyboards = () => {
           <Title>Storyboard 1</Title>
           <Content>This is the content for storyboard 1.</Content>
           <ButtonContainer>
-            <Button href="#download1">
+            <Button href="https://drive.google.com/file/d/1aL5g3FOGq8gKDweQOaYagS-kMsawXf0o/view?usp=drive_link">
               <Icon>
                 <FaDownload /> {/* Download icon */}
               </Icon>
@@ -144,7 +144,7 @@ const Storyboards = () => {
           <Title>Storyboard 2</Title>
           <Content>This is the content for storyboard 2.</Content>
           <ButtonContainer>
-            <Button href="#download2">
+            <Button href="https://drive.google.com/file/d/1j06x8mzksh91VT3BPFrVvpCSgisW7mC1/view?usp=drive_link">
               <Icon>
                 <FaDownload />
               </Icon>
@@ -156,7 +156,7 @@ const Storyboards = () => {
           <Title>Storyboard 3</Title>
           <Content>This is the content for storyboard 3.</Content>
           <ButtonContainer>
-            <Button href="#download3">
+            <Button href="https://drive.google.com/file/d/1Px0QS0xXNlYMz6Nd9u6rHg7C0489amT0/view?usp=drive_link">
               <Icon>
                 <FaDownload />
               </Icon>
@@ -168,7 +168,7 @@ const Storyboards = () => {
           <Title>Storyboard 4</Title>
           <Content>This is the content for storyboard 4.</Content>
           <ButtonContainer>
-            <Button href="#download4">
+            <Button href="https://drive.google.com/file/d/1k6G7PRPUmT5tiAiAKxYKbXBr-HTiZjof/view?usp=drive_link">
               <Icon>
                 <FaDownload />
               </Icon>
