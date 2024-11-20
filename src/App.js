@@ -10,6 +10,7 @@ import Persona from './components/Section6/Section6';
 import Storyboards from './components/section7/section7';
 import PaperPrototype from './components/section8/section8';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import ComputerPrototype from './components/section9/section9';
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
                 <section id="PaperPrototype">
                   <PaperPrototype/>
                 </section>
+                <section id="ComputerPrototype">
+                  <ComputerPrototype/>
+                </section>
               </div>
             }
           />
@@ -54,6 +58,7 @@ function App() {
           <Route path="/problemstatement" element={<ProblemStatement />} />
           <Route path="/technologies" element={<Technologies />} />
           <Route path='/persona' element={<Persona/>} />
+          <Route path='/computerprototype' element={<ComputerPrototype/>}/>
         </Routes>
         <Footer />
       </div>
