@@ -25,6 +25,10 @@ const ComputerPrototype = () => {
         title="Figma Design"
         allowFullScreen
       />
+      <Heading>Steps to run Prototype:</Heading>
+      <li>
+        <ul>Just click on the elements to navigate from one frame to another frame.This is embeded figma Prototype so no need of link to run this.</ul>
+      </li>
     </div>
   );
 };
