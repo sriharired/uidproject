@@ -11,6 +11,7 @@ import Storyboards from './components/section7/section7';
 import PaperPrototype from './components/section8/section8';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ComputerPrototype from './components/section9/section9';
+import ProjectSection from './components/section10/section10';
 
 function App() {
   return (
@@ -49,6 +50,9 @@ function App() {
                 <section id="ComputerPrototype">
                   <ComputerPrototype/>
                 </section>
+                <section id="Project">
+                  <ProjectSection/>
+                </section>
               </div>
             }
           />
@@ -59,6 +63,7 @@ function App() {
           <Route path="/technologies" element={<Technologies />} />
           <Route path='/persona' element={<Persona/>} />
           <Route path='/computerprototype' element={<ComputerPrototype/>}/>
+          <Route path='/project' element={<ProjectSection/>}/>
         </Routes>
         <Footer />
       </div>
