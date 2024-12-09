@@ -133,6 +133,7 @@ const ProjectSection = () => {
           </p>
         </Instructions>
         <VideoContainer>
+          <h3>Video Instructions & Functions</h3>  
           <iframe
             src="https://www.youtube.com/embed/TEpicQc7cWc"
             title="YouTube video"
