@@ -99,7 +99,7 @@ const ProjectSection = () => {
     <SectionWrapper>
       <SectionHeader>Project Resources</SectionHeader>
       <LinksContainer>
-        <LinkButton href="https://github.com/sriharired/uidproject" target="_blank">
+        <LinkButton href="https://github.com/sriharired/IHM" target="_blank">
           View Code
         </LinkButton>
       </LinksContainer>
