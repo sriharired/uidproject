@@ -114,7 +114,7 @@ const ProjectSection = () => {
       </Instructions>
       <VideoContainer>
         <iframe
-          src="https://www.youtube.com/embed/your-video-id"
+          src="https://youtu.be/TEpicQc7cWc?si=8QZE4g1z-UpZxvJ2"
           title="Project Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
