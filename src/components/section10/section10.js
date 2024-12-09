@@ -110,6 +110,13 @@ const ProjectSection = () => {
           >
             View Code
           </LinkButton>
+          <LinkButton
+            href="https://sriharired.github.io/IHM/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Project
+          </LinkButton>
         </LinksContainer>
         <Instructions>
           <h3>Instructions</h3>
