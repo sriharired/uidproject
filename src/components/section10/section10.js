@@ -117,7 +117,7 @@ const ProjectSection = () => {
             1. Clone the repository from the link provided by using{" "}
             <code>git clone "enter-git-link-here"</code>
             <br />
-            2. Navigate to project folder using {" "} <code>cd IHM</code>
+            2. Navigate to project folder using {" "} <code>cd IHM</code> <br/>
             3. Install the required dependencies by running{" "}
             <code>npm install</code>.
             <br />
