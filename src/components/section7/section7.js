@@ -130,6 +130,7 @@ const Storyboards = () => {
   return (
     <Section>
       <StoryboardContainer>
+        <h3>Story Boards</h3>
         <Storyboard>
           <Title>Storyboard 1</Title>
           <Content>This is the content for storyboard 1.</Content>
