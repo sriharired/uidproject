@@ -60,6 +60,10 @@ const VideoContainer = styled.div`
   padding-bottom: 56.25%; /* Aspect ratio 16:9 */
   height: 0;
 
+  @media (min-width: 1024px) {
+    padding-bottom: 40%; /* Reduce height on desktop screens */
+  }
+
   iframe {
     position: absolute;
     top: 0;
@@ -95,33 +99,42 @@ const Instructions = styled.div`
 `;
 
 const ProjectSection = () => {
-  return (
-    <SectionWrapper>
-      <SectionHeader>Project Resources</SectionHeader>
-      <LinksContainer>
-        <LinkButton href="https://github.com/sriharired/IHM" target="_blank" rel="noopener noreferrer"> 
-          View Code
-        </LinkButton>
-
-      </LinksContainer>
-      <Instructions>
-        <h3>Instructions</h3>
-        <p>
-          1. Clone the repository from the link provided by using  <code> git clone "enter-git-link-here"</code><br />
-          2. Install the required dependencies by running <code>npm install</code>.<br />
-          3. Start the development server using <code>npm run start</code>.<br />
-        </p>
-      </Instructions>
-      <VideoContainer>
-        <iframe
-          src="https://youtu.be/TEpicQc7cWc?si=8QZE4g1z-UpZxvJ2"
-          title="Project Video"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </VideoContainer>
-    </SectionWrapper>
-  );
-};
-
-export default ProjectSection;
+    return (
+      <SectionWrapper>
+        <SectionHeader>Project Resources</SectionHeader>
+        <LinksContainer>
+          <LinkButton
+            href="https://github.com/sriharired/IHM"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Code
+          </LinkButton>
+        </LinksContainer>
+        <Instructions>
+          <h3>Instructions</h3>
+          <p>
+            1. Clone the repository from the link provided by using{" "}
+            <code>git clone "enter-git-link-here"</code>
+            <br />
+            2. Install the required dependencies by running{" "}
+            <code>npm install</code>.
+            <br />
+            3. Start the development server using <code>npm run start</code>.
+            <br />
+          </p>
+        </Instructions>
+        <VideoContainer>
+          <iframe
+            src="https://www.youtube.com/embed/TEpicQc7cWc"
+            title="YouTube video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </VideoContainer>
+      </SectionWrapper>
+    );
+  };
+  
+  export default ProjectSection;
+  
